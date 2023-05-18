@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2? family= Abril+Fatface & family= Cormorant+Garamond:ital,wght@1,300 & display=swap');
+
+:root{
+    --cor01:#BFA521;
+    --cor02:#D9D48B;
+    --cor03:#4B72A6;
+    --cor04:#3350A6;
+    --cor05:#2135A6;
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{ 
+    background-color: var(--cor05);
+    /* background-image: url(/imagens/gogh.png);
+    height: 98vh;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; */
+}
+
+header {
+    background-color: var(--cor01);
+    margin-bottom: 15px;
+    padding: 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.384);
+}
+
+header h1 {
+    text-align: center;
+}
+
+header p {
+    text-align: center;
+}
+
+main {
+    background-color: antiquewhite;
+    width: 700px;
+    margin: auto;
+    padding: 15px;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 1px 1px 10px  rgba(0, 0, 0, 0.363);
+}
+
+main h1 {
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+}
+
+main p{
+    text-align: justify;
+    line-height: 30px;
+    word-spacing: 1px;
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+}
+
+footer {
+    background-color: var(--cor01);
+    margin-top: 15px;
+    /* position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: auto; */
+}
+
+footer p {
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--cor05);
+}
